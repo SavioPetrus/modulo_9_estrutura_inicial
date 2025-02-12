@@ -7,9 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Lista de Tarefas</h1>
-    <label for="nomeTarefa">Nome da Tarefa:</label>
-    <input type="text" id="nomeTarefa" placeholder="Nome da Tarefa">
-    <button type="submit">Cadastrar</button>
+    <div class="container">
+        <div class="container-head">
+            <header>
+                <h1>Lista de Tarefas</h1>
+            </header>
+        </div>
+        <div class="container-form">
+            <form id="addTask" class="addTask" action="">
+                <label for="taskName">Nome da Tarefa:</label>
+                <input type="text" id="taskName" placeholder="Nome da Tarefa">
+                <button type="submit">Cadastrar</button>  
+                <p class="errorMsg"></p> 
+                <p class="sucessMsg"></p>
+            </form>
+        </div>
+        <div class="container-taskList">
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
