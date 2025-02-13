@@ -35,6 +35,7 @@ function newTask(){
         lines += line;
     }
     
+    
 
     inputTask.addEventListener('input', function(){
         sucessMsg.style.display = 'none';

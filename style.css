@@ -54,6 +54,10 @@ ul{
     font-size: large;
 }
 
+li{
+    text-decoration: line-through;
+}
+
 h1 {
     text-align: center;
     color: white;
