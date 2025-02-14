@@ -54,10 +54,6 @@ ul{
     font-size: large;
 }
 
-li{
-    text-decoration: line-through;
-}
-
 h1 {
     text-align: center;
     color: white;
@@ -87,4 +83,47 @@ h1 {
     border-radius: 2px;
     margin-top: 20px;
     justify-self: center;
+}
+
+.tachado{
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 4px;
+    text-decoration-style: wavy;
+}
+
+li{
+    background-color: #36454F;
+    padding: 2px;
+    color: white;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+button{
+    transition-duration: 0.5s;
+    padding: 4px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: #36454F;
+    color: white;
+    font-size: large;
+}
+
+button:hover {
+    background-color: white;
+    color: #36454F;
+}
+
+input{
+    font-size: large;
+    border: none;
+    padding: 4px;
+    text-align: center;
+}
+
+input::placeholder{
+    color: green;
 }
